@@ -49,12 +49,13 @@ Server will be available at:
 
 ### 📚 API Endpoints
 
-| Method | Endpoint      | Description       |
-| ------ | ------------- | ----------------- |
-| GET    | `/todos`      | Get all todos     |
-| POST   | `/todos`      | Create a new todo |
-| PUT    | `/todos/{id}` | Update a todo     |
-| DELETE | `/todos/{id}` | Delete a todo     |
+| Method | Endpoint             | Description              |
+| ------ | -------------------- | ------------------------ |
+| GET    | `/todos`             | Get all todos            |
+| POST   | `/todos`             | Create a new todo        |
+| PUT    | `/todos/rename/{id}` | Rename a todo            |
+| PUT    | `/todos/done/{id}`   | Update a todo done state |
+| DELETE | `/todos/{id}`        | Delete a todo            |
 
 All endpoints are documented in Swagger.
 
